@@ -12,22 +12,44 @@
 
     <!-- Page Title -->
     <title>Wizard's First Rule</title>
+    <div class=" site-logo"><img src="./images/logo.png" alt="sword of truth" title="sword of truth">
+    </div>
   </head>
 
   <body>
     <header>
       <h1><strong>Wizard's First Rule</strong></h1>
-    </header>
 
-    <div class="content">
-      <aside>
-        <p>
-          <img src="images/bookcover.jpg" alt="cover">
-        </p>
-      </aside>
+      <menu class="menu-container">
+             <a href="./pages/sample.html" class="menu-item">
+                Sample</a>
+             <a href="./pages/contact.html" class="menu-item">
+                Contact</a>
+                <a href="./pages/about.html" class="menu-item">
+                   About</a>
+             <div class="dropdown">
+                <div class="menu-item display-inline-block"><a href="http://www.philip-pullman.com/Illustrations">More books and reviews</a>
+                <div class="dropdown-content">
+                  <a href="https://www.terrygoodkind.com/books" class="dropdown-item">Books</a>
+                  <a href="https://www.terrygoodkind.com/reviews" class="dropdown-item">Reviews</a>
 
-      <main>
-        <h2>My Thoughts</h2>
+              </div>
+          </div>
+        </div>
+
+      </menu>
+  </header>
+
+
+  <div class="content">
+        <aside>
+          <p>
+            <img src="images/bookcover.jpg" alt="cover" >
+          </p>
+        </aside>
+
+<main>
+  <h2>My Thoughts</h2>
         <div class="paragraph-1">
           <p>
             I absolutely love this book. It is extremely well written and entertaining
@@ -35,27 +57,28 @@
             I've ever read. It has a nice steady pace throughout the entirety of the book.
             While a couple parts are predictable, they are predictable for a reason... everyone
             wants them to happen. On the opposite end, some parts I never would have seen coming.
-            Those were the best parts of the book to me. This book is over 800 pages long and
             I still didn't want it to end.
           </p>
           <p>
-            <span class="review">
-              <q>
-                “Goodkind choreographs and intricate duality in which the dividing line
-                between good and evil is often turned upside down.” ―Romantic Times
-              </q>
-                <strong>-Los Angeles Times Book Review</strong>
-            </span>
-          </p>
+          <div class="review">
+              <h3>Reviews</h3>
+    <q>
+      “Goodkind choreographs and intricate duality in which the dividing line
+      between good and evil is often turned upside down.” ―Romantic Times
+    </q>
+  <strong>-Los Angeles Times Book Review</strong>
+  </div>
+</p>
+
+  </main>
+  </div>
 
 
-      </main>
-      </div>
 
 
-
+<!-- footer-->
     <footer>
-      <div class="pages">
+<div class="pages">
       <p>
         <a href="pages/about.html">about</a>
       </p>
@@ -65,7 +88,7 @@
         <a href="pages/contact.html">contact</a>
       </p>
       </p>
-      </div>
+    </div>
     </footer>
 
-  </body>
+    </body>

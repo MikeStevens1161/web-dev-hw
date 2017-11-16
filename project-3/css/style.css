@@ -8,7 +8,88 @@ body {
 
 header {
   background-color: #5B6F33;
-  padding: 75px;
+  padding: 170px;
+
+}
+
+.site-logo {
+    font-size: 2.5em;
+    float: right;
+    margin-right: 0.25em;
+    margin-bottom: 5em;
+}
+
+.menu-container {
+    text-align: center;
+    background-color:;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-item {
+    display: inline-block;
+    width: windowWidth;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #13100B;
+    background-color: #E7C507;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: outset;
+    border-color: #373E42;
+
+}
+
+.menu-item:hover, .dropdown:hover {
+    color: #fff;
+    background-color: #654E34;
+}
+
+/* Dropdown: */
+.dropdown {
+    display: inline-block;
+    color: #654E34;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 3px groove #27435C;
+    margin: 0;
+    color: #000;
+    background-color: #E7C507;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #fff;
+    background-color: #654E34;
+}
+
+main {
+  background-color: #13100B;
+margin-top: auto;
+  padding: 200px;
 
 }
 
@@ -16,12 +97,6 @@ header {
   display: flex;
   flex-direction: row;
   width: 100%;
-}
-
-main {
-  background-color: #13100B;
-  flex: 1 1 auto;
-  padding: 250px;
 
 }
 
@@ -40,13 +115,14 @@ footer {
   padding: 75px;
 }
 
+
 h1 {
   font-family: 'Alegreya', serif;
   color: #13100B;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.4em;
-  font-size: 42px;
+  font-size: 60px;
 }
 
 h2 {
@@ -58,7 +134,17 @@ h2 {
   font-size: 26px;
 }
 
+h3{
+    font-family: 'Alegreya', serif;
+    color: #5DCFA6
+    text-align: center;
+    letter-spacing: 0.4em;
+    font-size: 26px;
+}
+
 .paragraph-1 {
+  padding-left: 50px;
+  justify-content: right;
   color: #E7C507;
   text-indent: 1.5em;
   font-size: 20px;
@@ -73,6 +159,7 @@ p {
 }
 
 .review {
+  text-align: center;
   color: #5DCFA6;
   font-style: italic;
 }
@@ -88,7 +175,7 @@ div {
 }
 
 a {
-  color: #5DCFA6;
+  color: #13100B;
   text-transform: capitalize;
   text-decoration: none;
   text-align: center;
