@@ -1,0 +1,90 @@
+
+body {
+  background: url(../images/wireframe.jpg);
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.box1 {
+  width: 97%;
+  height: 250 px;
+  text-align: center;
+  overflow: hidden;
+  margin: 5%;
+  color: rgb(255,255,255);
+
+}
+.box1 {
+  background: #7800ff;
+}
+
+.box1-Head {
+font-family: 'Alegreya',serif;
+}
+
+.box1-P  {
+  font-family: 'Lato',sans-serif;
+
+}
+
+.box2 {
+  width: 97%;
+  height: 250 px;
+  text-align: center;
+  overflow: hidden;
+  margin: 5%;
+    background:#3784f9;
+
+}
+
+.box2-Head {
+  font-family: 'Alegreya',serif;
+}
+.box2-P {
+  font-family: 'Lato',sans-serif;
+}
+
+.box3 {
+  width: 97%;
+  height: 250 px;
+  text-align: center;
+  overflow: hidden;
+  margin: 5%;
+  background: #7cff5d;
+  color: rgb(0,0,0);
+  }
+
+.box3-Head {
+  font-family: 'Alegreya',serif;
+}
+
+.box3-P{
+    font-family: 'Lato',sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.box4-Head {
+
+  font-family: 'Alegreya',serif;
+}
+
+.box4-P {
+  font-family: 'Lato',sans-serif;
+}
+.box4 {
+  width: 97%;
+  height: 250 px;
+  text-align: center;
+  overflow: hidden;
+  margin: 5%;
+    background: #ff6a83;
+
+
+}
