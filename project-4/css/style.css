@@ -3,22 +3,22 @@ body {
   background: url(../images/wireframe.jpg);
 }
 
-.container{
+.box{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+
 
 }
 
 .box1 {
   width: 97%;
-  height: 250 px;
   text-align: center;
   overflow: hidden;
-  margin: 5%;
+  margin: 1%;
   color: rgb(255,255,255);
 
 }
+/* body content */
 .box1 {
   background: #7800ff;
 }
@@ -34,10 +34,9 @@ font-family: 'Alegreya',serif;
 
 .box2 {
   width: 97%;
-  height: 250 px;
   text-align: center;
   overflow: hidden;
-  margin: 5%;
+  margin: 1%;
     background:#3784f9;
 
 }
@@ -51,10 +50,9 @@ font-family: 'Alegreya',serif;
 
 .box3 {
   width: 97%;
-  height: 250 px;
   text-align: center;
   overflow: hidden;
-  margin: 5%;
+  margin: 1%;
   background: #7cff5d;
   color: rgb(0,0,0);
   }
@@ -80,11 +78,20 @@ font-family: 'Alegreya',serif;
 }
 .box4 {
   width: 97%;
-  height: 250 px;
   text-align: center;
   overflow: hidden;
-  margin: 5%;
+  margin: 1%;
     background: #ff6a83;
 
+
+}
+@media (min-width: 700px) {
+  .box2 {
+    width: 28%;
+  }
+  .box3{
+    width: 67%;
+
+  }
 
 }
